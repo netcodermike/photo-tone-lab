@@ -1,0 +1,16 @@
+{
+  "name": "photo-tone-lab",
+  "productName": "Photo Tone Lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edit brightness, contrast, saturation, and warmth with a split preview, live RGB histogram, and PNG export.",
+  "main": "main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron . --verify --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "45.3.0"
+  }
+}
